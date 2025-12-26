@@ -376,7 +376,7 @@ color:rgba(20, 20, 135, 0.595);
 }
 
 .back{
-  background-image: url('back/back.jpg')  ;
+  background-image: url('back.jpg')  ;
   background-repeat:no repeat;
 }
 .book{
