@@ -1,0 +1,413 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  line-height: 1.6;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: rgb(130, 24, 42);
+  color: #fff;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  display:absolute;
+  margin-left: 0px;
+  position: fixed;
+  top:0px;
+  margin-bottom: 10px;
+}
+
+nav a {
+  color: #fff;
+  margin-left: 15px;
+  padding-right: 15px;
+  text-decoration: none;
+  align-items: right;
+  margin-bottom: 0px;
+ 
+}
+.b{
+  height:40px;
+  width:40px;
+  border-radius: 20px;
+  transition:transform .5s infinate ease-in-out;
+  top:80px;
+}
+.b:hover{
+  transform: rotate(360 deg) ease-in-out;
+}
+.left{
+  margin-left: 80px;
+  margin-right: 0px;
+}
+.hero{
+  background-image: url("1.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+  height: 300px;
+  animation : slider 15s 10s infinite ;
+  border-radius: 20px;
+  margin-top: 160px;
+}
+.hero{
+  color:rgb(228, 9, 9);
+  font-size: 40px;
+  text-align: center;
+  font-style: italic;
+}
+
+section {
+  padding: 40px 20px;
+  background: white;
+  margin: 20px auto;
+  max-width: 1000px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.room-card {
+  background: #eee;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+.para{
+  font-family: arial;
+  
+}
+.para1{
+   font-family: arial;
+    padding-top: 10px;
+}
+
+form input, form button {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  max-width: 400px;
+}
+
+button {
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #222;
+  color: white;
+}
+.nav:hover{
+    background-color: #135b57;
+}
+.bo:hover{
+    color:aqua;
+}
+.about:hover{
+color:aqua;
+}
+.fa:hover{
+color:aqua;
+}
+.ro:hover{
+    color:aqua;
+}
+.room1:hover{
+    color:aqua;
+}
+.room2:hover{
+    color:aqua;
+}
+@keyframes slider{
+    0%
+    {
+background-image: url('1.jpg')  ;
+    }
+    25%
+    {
+background-image: url('2.jpg')  ;
+    }
+    50%
+    {
+background-image: url('5.jpg')  ;
+    }
+    65%
+    {
+background-image: url('4.jpg')  ;
+    }
+    75%
+    {
+background-image: url('3.jpg')  ;
+    }
+    100%
+    {
+background-image: url('6.jpg')  ;
+    }
+}
+.dinner{
+    width: 320px;
+    height: 200px;
+    position:center;
+    border-radius: 20px;
+    margin-left: 0px;
+    box-shadow: #222;
+}
+.image{
+  height:400px;
+  width:1000px;
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  flex-direction: row;
+  justify-content: space-between;
+  row-gap: 10px;
+
+}
+.div1{
+ 
+  height: 400px;
+  width:320;
+  border: 1px;
+  border-width: solid;
+  border-color: #112e2c;
+  background-color: lightblue;
+  padding-left: 5px;
+  border-radius: 20px;
+  margin-right: 10px;
+  font-family: arial;
+  font-style: italic;
+
+}
+.div2{
+ 
+  height: 400px;
+  width:320px;
+  border: 1px;
+  border-color: #112e2c;
+   background-color: lightpink;
+   border-radius: 20px;
+   font-family: arial;
+  font-style: italic;
+  padding-left: 5px;
+
+}
+.div3{
+  
+  height: 400px;
+  width:320px;
+  border: 1px;
+  border-color: #112e2c;
+   background-color: rgb(202, 202, 23);
+   border-radius: 20px;
+    font-family: arial;
+  font-style: italic;
+  padding-left: 5px;
+}
+.room{
+    height:500px;
+  width:1000px;
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  flex-direction: row;
+  justify-content: space-between;
+  row-gap: 10px;
+}
+.room:hover{
+  color:aqua;
+}
+.rooms1{
+ height: 500px;
+  width:320px;
+  background-color: red;
+}
+.rooms2{
+   height: 500px;
+  width:320px;
+  background-color: rgb(38, 84, 141);
+}
+.rooms3{
+   height: 500px;
+  width:320px;
+  background-color: rgb(23, 109, 41);
+}
+.standerd{
+  height: 300px;
+  width:320px;
+  position: center;
+}
+.stand{
+  font-family: arial;
+  font-style: bold;
+  text-align: center;
+  font-size: 20px;
+  
+  
+}
+.stand:hover{
+  color: aqua;
+}
+.view{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+  margin-top: 30px;
+  
+}
+.view:hover{
+  background-color: rgb(224, 231, 13);
+  color:rgb(14, 235, 202);
+  box-shadow: inset;
+}
+.room1{
+    height:500px;
+  width:1000px;
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  flex-direction: row;
+  justify-content: space-between;
+  row-gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.room2{
+  height:500px;
+  width:1000px;
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  flex-direction: row;
+  justify-content: space-between;
+  row-gap: 10px;
+  margin-top: 10px;
+  margin-left: 0px;
+  
+}
+.facili{
+   height:1800px;
+  width:1000px;
+  display:flex;
+  grid-template-columns:1fr,1fr;
+  justify-content: space-between;
+  flex-direction: column;
+   row-gap: 10px;
+}
+.swim{
+  height: 320px;
+  width:400px;
+  display:flex;
+  flex-direction:row;
+  border-radius: 20px;
+}
+.info{
+   height: 300px;
+  width:500px;
+  margin-left: 35px;
+  margin-top: 10px;
+  color:black;
+}
+
+.fit{
+  background-color: green;
+   height: 350px;
+  width:1000px;
+}
+.spa{
+  background-color: yellowgreen;
+   height: 350px;
+  width:1000px;
+}
+.free{
+  background-color:blue;
+   height: 350px;
+  width:1000px;
+}
+.resturant{
+  background-color: pink;
+   height: 350px;
+  width:1000px;
+}
+.facility,
+.facility1,
+.facility2,
+.facility3,
+.facility4{
+display:flex;
+flex-direction: row;
+  row-gap:30px;
+    border:2px;
+   border-style: solid;
+   border-color:rgb(53, 52, 52);
+   border-radius: 20px;
+
+  
+}
+.h{
+text-align: center;
+font-style: italic;
+color:rgba(20, 20, 135, 0.595);
+}
+.facility:hover{
+   border-color: orangered;
+   border-radius: 20px;
+}
+.facility1:hover{
+  border-color: lightpink;
+}
+.facility2:hover{
+  border-color:rgb(52, 133, 218);
+}
+.facility3:hover{
+  border-color:greenyellow
+}
+.facility4:hover{
+  border-color: green;
+}
+
+.back{
+  background-image: url('back/back.jpg')  ;
+  background-repeat:no repeat;
+}
+.book{
+  color:yellowgreen;
+  text-align: center;
+}
+.full,
+.email,
+.date,
+.num{
+  border-radius: 30px;
+  border:none;
+}
+.sub{
+  background-color: blue;
+  border-radius: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+
+}
+.booking{
+  margin-left: 300px;
+}
+.ho:hover{
+color: rgb(198, 36, 14);
+}
+.image{
+ display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  flex-direction: row;
+
+}
